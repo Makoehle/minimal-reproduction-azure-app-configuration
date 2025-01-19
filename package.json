@@ -1,0 +1,19 @@
+{
+  "name": "azure-app-configuration",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of VPN issue",
+  "scripts": {
+    "start": "tsc && node main.js",
+    "blobStorage": "tsc blobStorage.ts && node blobStorage.js"
+  },
+  "dependencies": {
+    "@azure/app-configuration": "^1.8.0",
+    "@azure/identity": "^4.6.0",
+    "@azure/storage-blob": "^12.26.0"
+  },
+  "devDependencies": {
+    "@azure/logger": "^1.1.4",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.10.7"
+  }
+}
